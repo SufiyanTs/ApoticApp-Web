@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/hand_1"
+        android:layout_width="120dp"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        android:background="#5DD593"
+        tools:src="@drawable/hand1" />
+
+    <TextView
+        android:id="@+id/titlee_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="Hand Sanitizer view"/>
+
+
+</LinearLayout>
